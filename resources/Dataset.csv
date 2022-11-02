@@ -1,0 +1,34 @@
+Production Process Code;Class;Name;Substrate;Product
+PPC 1.1.1;bodywork_press;door_production;aluminum # steel ;door
+PPC 1.1.2;bodywork_press;sideframe_production;aluminum;sideframe
+PPC 1.1.3;bodywork_press;hood_production;aluminum;hood
+PPC 1.1.4;bodywork_press;roof_production;aluminum;roof
+PPC 1.1.5;bodywork_press;mainframe_production;aluminum # steel ;mainframe
+PPC 1.1.6;bodywork_press;trunklid_production;aluminum;trunklid
+PPC 1.1.7;bodywork_press;bumper_molding;carbonfiber # resin;f_bumper # r_bumper
+PPC 2.1.1;engine_assembly;block_casting;iron;block
+PPC 2.1.2;engine_assembly;head_milling;aluminum;head
+PPC 2.1.3;engine_assembly;crank_machining;iron # steel;crankshaft
+PPC 2.1.4;engine_assembly;rods_machining;iron # steel;rod
+PPC 2.1.5;engine_assembly;pistons_milling;aluminum # steel ;piston
+PPC 2.1.6;engine_assembly;cams_machining;iron # steel;camshaft
+PPC 2.1.7;engine_assembly;valve_machining;steel;valve
+PPC 2.2.0;engine_assembly;engine_assembly;block # head # crankshaft # rod # piston # camshaft # valve;engine
+PPC 3.1.1;subframe;assembling_brakes;rotors # pads # calipers # pistons;brakes
+PPC 3.1.2;subframe;assembling_axles;cv-joints # axles # bearings # hubs ;axles
+PPC 3.1.3;subframe;assembling_suspension;shockabsorbers # controlarm # tensionarm # springs # stabilizers # steeringrack;suspension
+PPC 3.1.4;subframe;assembling_driveshaft;driveshaft # differential # bearing # flexdisc;driveshaft
+PPC 3.2.0;subframe;assembling_subframe;driveshaft # suspension # axles # brakes;subframe
+PPC 4.1.1;drivetrain;assembling_clutch;flywheel # frictiondisc # pressurebearing # clutcharm;clutch
+PPC 4.1.2;drivetrain;assembling_gearbox;gearboxhousing # gears # shifterarms # slipwheels;gearbox
+PPC 4.2.0;drivetrain;assembling_drivetrain;gearbox # clutch # engine;drivetrain
+PPC 5.1.1;interior;assembling_seats;leather # foam # seatframe # heatingelement # e_motor # switches;seat
+PPC 5.1.2;interior;assembling_dashboard;leather # cluster # radio # climatecontrol # lightswitch # plastic # airvents;dashboard
+PPC 5.1.3;interior;assembling_doorpanels;leather # plastic # doorlocks # speakers # windows # modules;doorpanel
+PPC 5.1.4;interior;assembling_headliner;carpet # electricroof # alarm # handles # sunvisors # rearviewmirror;headliner
+PPC 5.1.5;interior;assembling_floor;carpet # velour # floormats # airvents #trimpieces;floor
+PPC 5.1.6;interior;assembling_parcelshelf;velour # speakers # electricsunblind # isofix # headrests;parcelshelf
+PPC 5.2.0;interior;assembling_interior;parcelshelf # seat # dashboard # doorpanel # headliner # floor;interior
+PPC 6.1;car;assembling_phase1;mainframe # sideframe # roof # drivetrain # subframe # wheels;rolling_chassis
+PPC 6.2;car;assembling_phase2;rolling_chassis # floor # headliner # dashboard # seats # parcelshelf;fully_operational_chassis
+PPC 6.3;car;assembling_phase3;fully_operational_chassis # hood # trunklid # door # doorpanel;final_car

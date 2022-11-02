@@ -1,0 +1,63 @@
+Code;Class;Name;Input;Output
+ST 1.1;C,D;De Akkers;D.ri.DeAkkers # C.ri.DeAkkers;D.ri.Heemraadlaan # C.ri.Heemraadlaan
+ST 1.2;C,D;Heemraadlaan;D.ri.Heemraadlaan # C.ri.Heemraadlaan;D.ri.DeAkkers # D.ri.SpijkenisseCentrum # C.ri.DeAkkers # C.ri.SpijkenisseCentrum
+ST 1.3;C,D;Spijkenisse Centrum;D.ri.SpijkenisseCentrum # C.ri.SpijkenisseCentrum;D.ri.Heemraadlaan # D.ri.Zalmplaat # C.ri.Heemraadlaan # C.ri.Zalmplaat 
+ST 1.4;C,D;Zalmplaat;D.ri.Zalmplaat # C.ri.Zalmplaat;D.ri.SpijkenisseCentrum # D.ri.Hoogvliet # C.ri.SpijkenisseCentrum # C.ri.Hoogvliet
+ST 1.5;C,D;Hoogvliet;D.ri.Hoogvliet # C.ri.Hoogvliet;D.ri.Zalmplaat # D.ri.Tussenwater # C.ri.Zalmplaat # C.ri.Tussenwater
+ST 1.6;C,D;Tussenwater;D.ri.Tussenwater # C.ri.Tussenwater;D.ri.Hoogvliet # D.ri.Portugaal # C.ri.Hoogvliet # C.ri.Pernis
+ST 1.7;D;Poortugaal;D.ri.Portugaal;D.ri.Tussenwater # D.ri.Rhoon
+ST 1.8;D;Rhoon;D.ri.Rhoon;D.ri.Portugaal # D.ri.Slinge
+ST 1.9;D;Slinge;D.ri.Slinge;D.ri.Rhoon # D.ri.Zuidplein
+ST 1.10;D;Zuidplein;D.ri.Zuidplein;D.ri.Slinge # D.ri.Maashaven
+ST 1.11;D;Maashaven;D.ri.Maashaven;D.ri.Zuidplein # D.ri.Rijnhaven
+ST 1.12;D;Rijnhaven;D.ri.Rijnhaven;D.ri.Maashaven # D.ri.Wilhelminaplein
+ST 1.13;D;Wilhelminaplein;D.ri.Wilhelminaplein;D.ri.Rijnhaven # D.ri.Leuvehaven
+ST 1.14;D;Leuvehaven;D.ri.Leuvehaven;D.ri.Wilhelminaplein # D.ri.Beurs
+ST 1.15;A,B,C,D;Beurs;D.ri.Beurs # A.ri.Beurs # B.ri.Beurs # C.ri.Beurs;D.ri.Leuvehaven # D.ri.Stadhuis # A.ri.Eendrachtsplein # A.ri.Blaak # B.ri.Eendrachtsplein # B.ri.Blaak # C.ri.Eendrachtsplein # C.ri.Blaak
+ST 1.16;D;Stadhuis;D.ri.Stadhuis;D.ri.Beurs # D.ri.RotterdamCentraal
+ST 1.17;D;Rotterdam Centraal;D.ri.RotterdamCentraal;D.ri.Stadhuis
+ST 1.18;C;Pernis;C.ri.Pernis;C.ri.Tussenwater # C.ri.Vijfsluizen
+ST 1.19;C;Vijfsluizen;C.ri.Vijfsluizen;C.ri.Pernis # C.ri.Troelstralaan
+ST 1.20;C;Troelstralaan;C.ri.Troelstralaan;C.ri.Vijfsluizen # C.ri.Parkweg
+ST 1.21;C;Parkweg;C.ri.Parkweg;C.ri.Troelstralaan # C.ri.SchiedamCentrum
+ST 1.22;A,B,C;Schiedam Centrum;A.ri.SchiedamCentrum # B.ri.SchiedamCentrum # C.ri.SchiedamCentrum;A.ri.Marconiplein # B.ri.Marconiplein # C.ri.Parkweg # C.ri.Marconiplein
+ST 1.23;A,B,C;Marconiplein;A.ri.Marconiplein # B.ri.Marconiplein # C.ri.Marconiplein;A.ri.SchiedamCentrum # B.ri.SchiedamCentrum # C.ri.SchiedamCentrum # A.ri.Delftshaven # B.ri.Delftshaven # C.ri.Delftshaven
+ST 1.24;A,B,C;Delftshaven;A.ri.Delftshaven # B.ri.Delftshaven # C.ri.Delftshaven;A.ri.Marconiplein # B.ri.Marconiplein # C.ri.Marconiplein # A.ri.Coolhaven # B.ri.Coolhaven # C.ri.Coolhaven
+ST 1.25;A,B,C;Coolhaven;A.ri.Coolhaven # B.ri.Coolhaven # C.ri.Coolhaven;A.ri.Delftshaven # B.ri.Delftshaven # C.ri.Delftshaven # A.ri.Dijkzigt # B.ri.Dijkzigt # C.ri.Dijkzigt
+ST 1.26;A,B,C;Dijkzigt;A.ri.Dijkzigt # B.ri.Dijkzigt # C.ri.Dijkzigt;A.ri.Coolhaven # B.ri.Coolhaven # C.ri.Coolhaven # A.ri.Eendrachtsplein # B.ri.Eendrachtsplein # C.ri.Eendrachtsplein
+ST 1.27;A,B,C;Eendrachtsplein;A.ri.Eendrachtsplein # B.ri.Eendrachtsplein # C.ri.Eendrachtsplein;A.ri.Dijkzigt # B.ri.Dijkzigt # C.ri.Dijkzigt # A.ri.Beurs # B.ri.Beurs # C.ri.Beurs
+ST 1.28;A,B,C;Blaak;A.ri.Blaak # B.ri.Blaak # C.ri.Blaak;A.ri.Beurs # B.ri.Beurs # C.ri.Beurs # A.ri.Oostplein # B.ri.Oostplein # C.ri.Oostplein
+ST 1.29;A,B,C;Oostplein;A.ri.Oostplein # B.ri.Oostplein # C.ri.Oostplein;A.ri.Blaak # B.ri.Blaak # C.ri.Blaak # A.ri.Gerdesiaweg # B.ri.Gerdesiaweg # C.ri.Gerdesiaweg
+ST 1.30;A,B,C;Gerdesiaweg;A.ri.Gerdesiaweg # B.ri.Gerdesiaweg # C.ri.Gerdesiaweg;A.ri.Oostplein # B.ri.Oostplein # C.ri.Oostplein # A.ri.Voorschoterlaan # B.ri.Voorschoterlaan # C.ri.Voorschoterlaan
+ST 1.31;A,B,C;Voorschoterlaan;A.ri.Voorschoterlaan # B.ri.Voorschoterlaan # C.ri.Voorschoterlaan;A.ri.Gerdesiaweg # B.ri.Gerdesiaweg # C.ri.Gerdesiaweg # A.ri.KralingseZoom # B.ri.KralingseZoom # C.ri.KralingseZoom
+ST 1.32;A,B,C;Kralingse Zoom;A.ri.KralingseZoom # B.ri.KralingseZoom # C.ri.KralingseZoom;A.ri.Voorschoterlaan # B.ri.Voorschoterlaan # C.ri.Voorschoterlaan # A.ri.Capelsebrug # B.ri.Capelsebrug # C.ri.Capelsebrug
+ST 1.33;A,B,C;Capelsebrug;A.ri.Capelsebrug # B.ri.Capelsebrug # C.ri.Capelsebrug;A.ri.KralingseZoom # B.ri.KralingseZoom # C.ri.KralingseZoom # A.ri.Schenkel # B.ri.Schenkel # C.ri.Slotlaan
+ST 1.34;C;Slotlaan;C.ri.Slotlaan;C.ri.Capelsebrug # C.ri.CapelleCentrum
+ST 1.35;C;Capelle Centrum;C.ri.CapelleCentrum;C.ri.Slotlaan # C.ri.DeTerp
+ST 1.36;C;De Terp;C.ri.DeTerp;C.ri.CapelleCentrum
+ST 1.37;A,B;Schenkel;A.ri.Schenkel # B.ri.Schenkel;A.ri.Capelsebrug # B.ri.Capelsebrug # A.ri.Prinsenlaan # B.ri.Prinsenlaan
+ST 1.38;A,B;Prinsenlaan;A.ri.Prinsenlaan # B.ri.Prinsenlaan;A.ri.Schenkel # B.ri.Schenkel # A.ri.Oosterflank # B.ri.Oosterflank
+ST 1.39;A,B;Oosterflank;A.ri.Oosterflank # B.ri.Oosterflank;A.ri.Prinsenlaan # B.ri.Prinsenlaan # A.ri.Alexander # B.ri.Alexander
+ST 1.40;A,B;Alexander;A.ri.Alexander # B.ri.Alexander;A.ri.Oosterflank # B.ri.Oosterflank # A.ri.Graskruid # B.ri.Graskruid
+ST 1.41;A,B;Graskruid;A.ri.Graskruid # B.ri.Graskruid;A.ri.Alexander # B.ri.Alexander # A.ri.Romeynshof # B.ri.Hesseplaats
+ST 1.42;A;Romeynshof;A.ri.Romeynshof;A.ri.Graskruid # A.ri.Binnenhof
+ST 1.43;A;Binnenhof;A.ri.Binnenhof;A.ri.Romeynshof
+ST 1.44;B;Hesseplaats;B.ri.Hesseplaats;B.ri.Graskruid # B.ri.NieuwVerlaat
+ST 1.45;B;Nieuw Verlaat;B.ri.NieuwVerlaat;B.ri.Hesseplaats # B.ri.Ambachtsland
+ST 1.46;B;Ambachtsland;B.ri.Ambachtsland;B.ri.NieuwVerlaat # B.ri.DeTochten
+ST 1.47;B;De Tochten;B.ri.DeTochten;B.ri.Ambachtsland # B.ri.Nesselande
+ST 1.48;B;Nesselande;B.ri.Nesselande;B.ri.DeTochten
+ST 1.49;E;Den Haag Centraal;E.ri.DenHaagCentraal;E.ri.LaanvanNOI
+ST 1.50;E;Laan van NOI;E.ri.LaanvanNOI;E.ri.DenHaagCentraal # E.ri.Voorburg'tLoo
+ST 1.51;E;Voorburg 't Loo;E.ri.Voorburg'tLoo;E.ri.LaanvanNOI # E.ri.LeidschendamVoorburg
+ST 1.52;E;Leidschendam-Voorburg;E.ri.LeidschendamVoorburg;E.ri.Voorburg'tLoo # E.ri.Forepark
+ST 1.53;E;Forepark;E.ri.Forepark;E.ri.LeidschendamVoorburg # E.ri.Leidschenveen
+ST 1.54;E;Leidschenveen;E.ri.Leidschenveen;E.ri.Forepark # E.ri.Nootdorp
+ST 1.55;E;Nootdorp;E.ri.Nootdorp;E.ri.Leidschenveen # E.ri.PijnackerCentrum
+ST 1.56;E;Pijnacker Centrum;E.ri.PijnackerCentrum;E.ri.Nootdorp # E.ri.PijnackerZuid
+ST 1.57;E;Pijnacker Zuid;E.ri.PijnackerZuid;E.ri.PijnackerCentrum # E.ri.BerkelWestpolder
+ST 1.58;E;Berkel Westpolder;E.ri.BerkelWestpolder;E.ri.PijnackerZuid # E.ri.Rodenrijs
+ST 1.59;E;Rodenrijs;E.ri.Rodenrijs;E.ri.BerkelWestpolder # E.ri.MeijerspleinAirport
+ST 1.60;E;Meijersplein / Airport;E.ri.MeijerspleinAirport;E.ri.Rodenrijs # E.ri.Melanchthonweg
+ST 1.61;E;Melanchthonweg;E.ri.Melanchthonweg;E.ri.MeijerspleinAirport # E.ri.RotterdamHofplein
+ST 1.62;E;Rotterdam Hofplein;E.ri.RotterdamHofplein;E.ri.Melanchthonweg
